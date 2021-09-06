@@ -25,6 +25,22 @@ Step2:
 ```sh
 cd /prometheus/
 ```
+```sh
+sudo vi prometheus.yml
+```
+1. Update the targets under static_configs in prometheus.yml.For example
+2. privateip is the ip of linux server where nodeporter is installed and 9100 is port number of nodeexporter
+```sh
+global:
+  scrape_interval: 10s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9090','priavteip:9100']
+```
+
 
 
 
