@@ -45,6 +45,12 @@ Finally,call the prometheus script using below command
 ```sh
 sudo  ./prometheus
 ```
+### Access Prometheus Web UI
+1. Now you will be able to access the prometheus UI on 9090 port of the prometheus server.
+```sh
+http://<prometheus-ip>:9090
+```
+
 
 
 
