@@ -1,4 +1,20 @@
-### 1. Create a grafana YUM repository using below command
+### Before You Begin
+1. The server has access to the internet for downloading the Node-exporter binary.
+2. Most importantly, firewall rules opened for accessing Prometheus port 3100 on the server.
+
+###  How To Install and Configure Node Exporter On a Linux Server
+Step1:Run the following commands are one by one on a linux server
 ```sh
-sudo vi /etc/yum.repos.d/grafana.repo
+cd /opt/
+```
+```sh
+sudo wget https://github.com/prometheus/node_exporter/releases/download/v1.2.2/node_exporter-1.2.2.linux-amd64.tar.gz
+```sh
+sudo tar xf node_exporter-1.2.2.linux-amd64.tar.gz
+```
+```sh
+sudo rm -rf node_exporter-1.2.2.linux-amd64.tar.gz
+```
+```sh
+sudo mv node_exporter-1.2.2.linux-amd64/ nodeexporter
 ```
