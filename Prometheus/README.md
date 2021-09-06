@@ -1,5 +1,5 @@
 ###  How To Install and Configure Prometheus On a Linux Server
-Step1:Run the following commands one by one on a linux server
+Step1:Run the following commands are one by one on a linux server
 ```sh
 cd /opt/
 ```
