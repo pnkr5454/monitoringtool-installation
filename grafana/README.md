@@ -39,6 +39,9 @@ Now you will be able to access the Grafana Web UI on 3000 port of the grafana se
 ```sh
 http://<grafana-ip>:3000
 ```
-1.Log in to the Grafana Dashboard using default user ' admin' and password ' admin.'
+1. Log in to the Grafana Dashboard using default user ' admin' and password ' admin.'
+2. Add the datasource of prometheus server
+3. Create a dashboard or import dashboard theme using 1860 code
+
 
 
