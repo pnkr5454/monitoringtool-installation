@@ -4,6 +4,7 @@
 sudo vi /etc/yum.repos.d/grafana.repo
 ```
 ### 2. Copy the below content to the above yum repository file and save it
+For OSS releases:
 ```sh
 [grafana]
 name=grafana
