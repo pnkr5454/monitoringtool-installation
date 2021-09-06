@@ -1,4 +1,5 @@
-
+### Before You Begin
+1. Most importantly, firewall rules opened for accessing grafana port 3000 on the server.
 ### 1. Create a grafana YUM repository using below command
 ```sh
 sudo vi /etc/yum.repos.d/grafana.repo
