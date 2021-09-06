@@ -34,6 +34,10 @@ Configure the Grafana server to start at boot:
 ```sh
 sudo systemctl enable grafana-server
 ```
-
+### Grafana Web UI
+Now you will be able to access the Grafana Web UI on 3000 port of the grafana server.
+```sh
+http://<grafana-ip>:3000
+```
 
 
