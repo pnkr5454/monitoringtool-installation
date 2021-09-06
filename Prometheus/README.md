@@ -29,8 +29,8 @@ cd /prometheus/
 sudo vi prometheus.yml
 ```
 ## Note:
-1. Update the targets under static_configs in prometheus.yml.For example
-2. privateip is the ip of linux server where nodeexporter is installed and 9100 is port number of nodeexporter
+1. privateip is the ip of linux server where nodeexporter is installed and 9100 is port number of nodeexporter
+2. Update the targets under static_configs in prometheus.yml.
 ```sh
 global:
   scrape_interval: 10s
