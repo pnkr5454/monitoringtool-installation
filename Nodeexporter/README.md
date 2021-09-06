@@ -27,3 +27,8 @@ cd node_exporter
 sudo ./node_exporter
 ```
 Now Successfully running agent but we can also configure to run agent in background.
+### Node_exporter Web UI
+Now you will be able to access the Node_exporter Web UI on 9100 port of the node_exporter server.
+```sh
+http://<node_exporter-ip>:9100
+```
