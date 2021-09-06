@@ -39,5 +39,6 @@ Now you will be able to access the Grafana Web UI on 3000 port of the grafana se
 ```sh
 http://<grafana-ip>:3000
 ```
+1.Log in to the Grafana Dashboard using default user ' admin' and password ' admin.'
 
 
