@@ -21,10 +21,14 @@ sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 sudo yum install grafana
 ```
 ### 4. Start the server with systemd:
-To start the service and verify that the service has started:
+To start the service:
 ```sh
 sudo systemctl start grafana-server
+```
+and verify that the service has started:
+```sh
 sudo systemctl status grafana-server
 ```
+
 
 
