@@ -16,5 +16,10 @@ gpgkey=https://packages.grafana.com/gpg.key
 sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 ```
+### 3. Install Grafana with the following commands:
+```sh
+sudo yum install grafana
+```
+
 
 
