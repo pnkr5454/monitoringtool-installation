@@ -3,7 +3,7 @@
 2. Most importantly, firewall rules opened for accessing Node_exporter port 9100 on the server.
 
 ###  How To Install and Configure Node Exporter On a Linux Server
-Step1:Run the following commands are one by one on a linux server
+Step1: Run the following commands are one by one on a linux server
 ```sh
 cd /opt/
 ```
@@ -19,7 +19,7 @@ sudo rm -rf node_exporter-1.2.2.linux-amd64.tar.gz
 ```sh
 sudo mv node_exporter-1.2.2.linux-amd64/ node_exporter
 ```
-Step2:start the node_exporter agent by using below commands
+Step2: Start the node_exporter agent by using below commands
 ```sh
 cd node_exporter
 ```
