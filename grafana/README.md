@@ -29,6 +29,10 @@ and verify that the service has started:
 ```sh
 sudo systemctl status grafana-server
 ```
+Configure the Grafana server to start at boot:
+```sh
+sudo systemctl enable grafana-server
+```
 
 
 
